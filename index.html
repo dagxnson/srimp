@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="./assets/Logo.svg" />
+    <title>Srimp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="/assets/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="/assets/fontawesome/css/solid.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <all class="all">
+      <navbar class="navbar">
+        <a href="./index.html" class="navbar__logo">
+          <img src="./assets/Logo.svg" alt="Srimp" class="navbar__logo--img" />
+          <p class="navbar__logo--text">Srimp</p>
+        </a>
+        <div class="navbar__search-bar">
+          <input
+            type="text"
+            placeholder="🔎 Search..."
+            class="navbar__search-bar__input"
+          />
+        </div>
+        <div class="navbar--optionBox">
+          <div class="navbar__msg">
+            <a href="#" class="navbar__icon--link">
+              <i class="fa-solid fa-comment navbar__msg--icon navbar__icon"></i
+            ></a>
+          </div>
+          <div class="navbar__noti">
+            <a href="#" class="navbar__icon--link">
+              <i class="fa-solid fa-bell navbar__noti--icon navbar__icon"></i
+            ></a>
+          </div>
+          <div class="navbar__user">
+            <a href="#" class="navbar__icon--link">
+              <i
+                class="fa-solid fa-circle-user navbar__user--icon navbar__icon"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </navbar>
+      <main class="main">
+        <div class="tags">
+          <div class="tags--border">
+            <ul class="tags__list">
+              <li class="tags__list--item tags--locating-item">
+                <a href="./index.html" class="tags--item-link tags__home--link">
+                  <i
+                    class="fa-solid fa-house tags--item-icon tags__home--icon"
+                  ></i>
+                  <p class="tags--item-text">Home</p>
+                </a>
+              </li>
+              <li class="tags__list--item tags--unlocating-item">
+                <a href="./friends.html" class="tags--item-link">
+                  <i
+                    class="fa-solid fa-user-group tags--item-icon tags__friends--icon"
+                  ></i>
+                  <p class="tags--item-text">Friends</p>
+                </a>
+              </li>
+              <li class="tags__list--item tags--unlocating-item">
+                <a href="./bookmarks.html" class="tags--item-link">
+                  <i
+                    class="fa-solid fa-bookmark tags--item-icon tags__bookmarks--icon"
+                  ></i>
+                  <p class="tags--item-text">Bookmarks</p>
+                </a>
+              </li>
+              <li class="tags__list--item tags--unlocating-item">
+                <a href="./profile.html" class="tags--item-link">
+                  <i
+                    class="fa-solid fa-user tags--item-icon tags__profile--icon"
+                  ></i>
+                  <p class="tags--item-text">Profile</p>
+                </a>
+              </li>
+              <li class="tags__list--item tags--unlocating-item">
+                <a href="./setting.html" class="tags--item-link">
+                  <i
+                    class="fa-solid fa-gear tags--item-icon tags__setting--icon"
+                  ></i>
+                  <p class="tags--item-text">Setting</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="post">
+          <div class="wall"></div>
+          <div class="post__main">
+            <div class="post__main__posting"></div>
+            <div class="post__main__content"></div>
+          </div>
+          <div class="wall"></div>
+        </div>
+        <div class="trends"></div>
+      </main>
+    </all>
+  </body>
+</html>
